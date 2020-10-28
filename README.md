@@ -5,6 +5,17 @@
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 
 #### 20201028(수)
+-meta 데이터: 데이터의 데이터, 콘텐츠를 설명하는 데이터, 실제 콘텐츠에는 영향을 안미침.
+메타태그중 viewport 는 필수-반응형 사이트에서 없으면 작동이 안됨.
+-깃허브 README.md(MarkDown 언어를 씀) 
+#4개가 H4로 바뀌는게 Markdown 언어임
+
+-CSS 스타일 적용하는 3가지 방법: 
+1.인라인 스타일: 태그 안쪽에  속성사용- ex) style="padding 10px;"
+2.파일안에 <style>태그 사용: <style> </style>
+3.외부 css 파일 지정하기: ex) <link href="css파일 위치>
+
+
 
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
