@@ -21,16 +21,14 @@ img {border: none;}
 	clear: both;
 	display: block;
 }
-.txt_right {
-	text-align: right !important;
-}
+.txt_right { 	text-align: right !important; }
 .mt20 {
 	margin-top: 20px !important;
 }
-.w100p {
-	width: 100% !important;
-}
+.w100p { 	width: 100% !important; }
 /* //공통영역 */
+
+/* 모바일 영역 */
 /* 해더영역 */
 .on {background: #31353d;}
 
@@ -173,3 +171,113 @@ header{
 }
 /* //상단 메뉴 영역 */
 /* //해더 영역 */
+/* 본문컨테이너 영역 */
+#container, #footer, .hdd, .quick_area {
+	text-align: center;
+}
+#container {
+	position: relative;
+	width: 100%;
+	padding-bottom:30px;
+}
+/* pc용 슬라이드영역은 숨김처리 */
+.main_rolling_pc {display: none; }
+/* 모바일 슬라이드영역 */
+.main_rolling_mobile { display: block;}
+.swiper-slide img { width: 100%;}
+.swiper-pagination-bullet {
+	width: 5px !important; 
+	height: 5px !important;
+	margin: 0 3px !important;
+	background: #ffff !important;
+	opacity: 0.2 !important;
+}
+.swiper-pagination-bullet-active {
+	opacity: 1 !important;
+	/* navigation투명도를 100프로로 바꿈. 활성화되어있을 때(bullet 애드클래스로 넣었다뺐다하는거랑 같음
+	불랫의 엑티브라는걸 에디트 3개게 대해서 액티르를 어쩌구..) */
+}
+/* //모바일 슬라이드영역 */
+/* 갤러리 최근 게시물 영역 */
+.about_area h2{
+	font-size: 20px;
+	padding: 27px 0 25px;
+}
+.about_area h2 b{
+	display: block;
+	padding-top: 10px;
+}
+.about_box{
+	background-color:#ffff;
+}
+.place_list li{
+	float: none;
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.place_list li img{
+	width: 100%;
+}
+.place_list li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 25px;
+	color: #000;
+}
+.place_list p.txt {
+	padding: 10px 50px 30px;
+	line-height: 1.4;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	word-break: keep-all;
+	color: #666;
+}
+.place_list li .view {
+	padding-bottom: 10px;
+	margin: 0 0 30px;
+	display: inline-block;
+	padding-top: 5px;
+	border-top: 2px solid#333;
+	color: #666;
+}
+/* //갤러리 최근 게시물영역 */
+/* 공지사항 최근게시물 영역 */
+.app_line {display: none;}
+.appbbs_area {
+	padding: 0 20px;
+	text-align: left;
+}
+.box_inner {
+	width: 100%;
+	margin: 0 auto;
+}
+.bbs_line {
+	float: none;
+	width: 100%;
+	padding: 20px 0;
+	border-top: 1px solid #d6d7d8;
+}
+.bbs_line h3 {
+	font-weight: bold;
+	font-size: 19px;
+}
+.bbs_line .notice_recent {
+	padding-top: 10px;
+}
+.bbs_line  .notice_recent li {
+	padding: 8px 0;
+}
+.bbs_line .notice_recent li a{
+	display: block;
+	padding-left: 14px;
+	background: url(../img/ico_bullet.png) no-repeat 0 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* //공지사항 최근게시물 영역 */
+/* //본문컨테이너영역 */
+
