@@ -18,7 +18,15 @@
 z-index: 주), 0부터 시작, 
 화면에는 레이어라는 개념이 있음(포토피아)
 
-
+#### 20201029(목)
+-햄버거메뉴: .openMOgnb->gnb(glova navigation 전체 메뉴)
+Ps.Page Navigation(페이징 링크 처리)
+-웹접근성: 시각 장애인들을 위한 코딩 추가.
+-사각형 영역 크기: box-sizing: border-box;
+-네이밍 규칙: 카멜 표기(낙타등)
+-ul(unorder list)태그> li태그
+-nav 태그: html5에 추가된 태그.
+-<div id="nav">
 
 
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
