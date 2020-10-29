@@ -30,6 +30,7 @@ z-index: 주), 0부터 시작,
 
 - 소스내용 교육용으로 정리
 - 깃 사용시 토큰인증헤제: [윈도우 자격증명관리]에 personal access token 을 삭제 후 커밋
+아디 비번 입력없이 자동 로그인되는거.
 - 강사블로그 http://blog.daum.net/web_design 에서 익스텐션으로 검색 vscode 사용법 참조.
 - 비주얼스튜디오코드 익스텐션 파일 구글드라이브 다운로드(아래):
 - https://drive.google.com/file/d/1NkZ0qfr2P0tDsRKyP9qHQ3tPkafeKiPv/view?usp=sharing
