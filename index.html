@@ -19,12 +19,13 @@
 <style>
 /* 모바일 영역 */
 /* 해더영역 */
-.on {background: #32353d;}
+.on {background: #31353d;}
+
 header{ 
 	height: 90px;
 	text-align: center;
 	z-index: 200;
-	background: rgba(0, 0,0,0.5);
+	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -50,7 +51,7 @@ header{
 	background-position: center center !important;
 	text-indent: -9999px;
 	overflow: hidden;
-	background: url(../img/main_logo.png) no-repeat;
+	background: url(./img/main_logo.png) no-repeat;
 }
 /* //로고 역역 */
 /* 상단 메뉴 영역 */
@@ -82,8 +83,8 @@ header{
 .header_cont {
 	float: none;
 	width: 100%;
-	/* display: none; */
 	background: #31353d;
+	display: none;
 }
 .closePop {
 	display: block;
@@ -154,10 +155,35 @@ header{
 .gnb li+li+li+li a{
 	background-image: url(./img/ico_gnb04.png);
 }
+.gnb li:nth-child(2n+1){
+	border-right: 1px solid #838682;
+}
 /* //상단 메뉴 영역 */
 /* //해더 영역 */
+
+/* 컨테이너 영역 */
+
+/* //컨테이너 영역 */
 /* //모바일영역 */
+
 </style>
+<script>
+	$(document).ready(function(){
+		// alert('콜백함수 실행');
+		$(".openMOgnb").click(function(){
+			// alert();디버그용
+			$(".header_cont").css("display", "block");
+			// background 추가 header 아이디 영역 백그라운드추가
+			$("#header").addClass("on");
+
+		});
+		$(".closePop").click(function(){
+			$(".header_cont").css("display", "none");
+			$("#header").removeClass("on");
+		});
+		
+	});
+</script>
 </head>
 <body>
 
