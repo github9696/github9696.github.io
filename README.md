@@ -101,6 +101,7 @@ JQuery 연습(아래)
 
   }); -->
 
+-bbs(pc통신부터 게시판 약자 bbs) boad system.
 
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
