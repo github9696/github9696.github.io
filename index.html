@@ -19,17 +19,17 @@
 <style>
 /* 태블릿 영역 */
 @media all and (min-width:801px){
-/* 컨테이너 영역 */
+/* 컨테이너영역 */
 #container {
 	padding-bottom: 20px;
 	width: initial;
 	position: initial;
 }
-
-/* 슬라이드 영역 */
+/* //컨테이너영역 */
+/* 슬라이드영역 */
 .main_rolling_mobile {display: none;}
-.main_rolling_pc{display: block;}
-.visulaRoll {
+.main_rolling_pc {display: block;}
+.visualRoll {
 	position: relative;
 	width: 100%;
 }
@@ -46,25 +46,20 @@ ul.viewImgList li {
 	z-index: 50;
 	width: 100%;
 }
-.roll_content a img{ display: none; }
-
+.roll_content a img {display: none;}
 li.imglist0 {
-	background: url(./img/hollow.jpg) no-repeat; }
-li.imglist1{
-	position: absolute;
-	background: url(./img/img_slidecontents01.png) no-repeat;
-	width: 100%;
-	left: 0; top: 0;
-	z-index: 10;
-	background: #4438d1
+	background: url(./img/hollow.jpg) no-repeat;
 }
-li.imglist2{
+li.imglist1 {
 	background: url(./img/img_slidecontents02.png) no-repeat;
 }
+li.imglist2 {
+	background: url(./img/img_slidecontents03.png) no-repeat;
+}
 .roll_content {position: relative;}
-.roll_content .roll_txtline{
+.roll_content .roll_txtline {
 	position: absolute;
-	left: 0;
+	left:0;
 	bottom: 60px;
 	width: 100%;
 	line-height: 1;
@@ -73,7 +68,7 @@ li.imglist2{
 	color: #fff;
 	letter-spacing: 2px;
 }
-.rollbtnArea{
+.rollbtnArea {
 	position: absolute;
 	width: 100%;
 	left: 0;
@@ -81,17 +76,19 @@ li.imglist2{
 	z-index: 200;
 }
 .rollingbtn {
-	width: 320px; margin: 0 auto;
+	width: 320px; margin:0 auto;
 	text-align: center;
 }
-.rolingbtn li butt0{
+.rollingbtn li.butt0 {
 	margin-left: 10px;
 }
 .rollingbtn li {
 	display: inline-block;
-	margin-right: 5px;
+	margin-left: 5px;
 }
-/* //슬라이드 영역 */
+.rollingbtn li a {vertical-align: top;}
+/* //슬라이드영역 */
+
 /* //테블릿 영역 */
 }
 
