@@ -437,11 +437,11 @@ footer{
 	width: 32%;}
 
 .quick_list li+ li a h3 {
-	background: url(./img/ico_katalk_mobtm.png) no-repeat 20px center;
+	background: url(../img/ico_katalk_mobtm.png) no-repeat 20px center;
 	background-size: 20px;
 }
 .quick_list li+li+li a h3{
-	background-image: url(./img/ico_contact_mobtm.png) no-repeat 20px center;
+	background-image: url(../img/ico_contact_mobtm.png) no-repeat 20px center;
 	background-size: 20px;
 }
 .quick_list li:last-child::before{
