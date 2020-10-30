@@ -40,7 +40,7 @@ function aname(vars) {
     alert(vars+ "이름 출력");
 }
 aname('김일국');//함수호출
-
+<!-- 함수 매개 변수?가 다 있는거 -->
 -j쿼리: 네이티브 자바스크립트 단축키워드로 사용.
 j쿼리 코어를 가져와서 사용.
 JQuery 연습(아래)
@@ -89,6 +89,7 @@ JQuery 연습(아래)
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
 
 #### 20201030 (금)
+-대괄호[배열], 중괄호{구현내용}, 소괄호(매개변수)
 -@미디어쿼리
 -@=애노테이션=지시어
 -웹프로그램: 기본은 게시판(아래)
