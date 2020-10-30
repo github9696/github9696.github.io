@@ -41,10 +41,10 @@ function aname(vars) {
 }
 aname('김일국');//함수호출
 
-<!-- -j쿼리: 네이티브 자바스크립트 단축키워드로 사용.
+-j쿼리: 네이티브 자바스크립트 단축키워드로 사용.
 j쿼리 코어를 가져와서 사용.
 JQuery 연습(아래)
-1. jQuery 개요
+<!-- 1. jQuery 개요
   -개요 : 자바 스크립트 라이브러리 중 대표적임.
 
  - DOM엘리먼트 하나하나 접근하여 작업을 수행
@@ -54,59 +54,49 @@ JQuery 연습(아래)
     -엘리먼트 속성 변경, 엘리먼트를 추가
 
   -특징 : DOM 엘리먼트셀렉터(DOM: HTML, XML을 제어)
-
  html태그선택 : $("a"),$("div")
-
  CSS클래스선택 : $(".클래스명"), $("태그, 클래스명")
-
- CSS ID선택 : $("#id") --> document.getElementById("id")와 같다
-
+ CSS ID선택 : $("#id") document.getElementById("id")와 같다
  중첩구조 : $("#id").find("li") => $("#id li")
-
  jquery 사용법 시작부분
-
 <script type="text/javascript" src="jquery.js"></script>
 <head> 태그 안쪽에 사용 </head>
 
-
  -Ajax 지원 (현재 진행중인 스프링프로젝트 댓글 기능에 사용할 예정)
-
  -사용법(아래)
-
  *$(document).ready(callback)
-
    단축형: jQuery(callback)/$(callback) 
-
   $(document).ready(function(){
-
    //사용자 소스 영역
-
   });
-
   $(function() {
-
   //사용자 소스 영역
-
   });
-
   jQuery(document).ready(function() {
-
   //사용자 소스 영역
-
   });
-
   jQuery(function() {
-
   //사용자 소스 영역
-
-  }); -->
+  });  -->
 
 -bbs(pc통신부터 게시판 약자 bbs) boad system.
+-img는 가로크기를 지정하면, 세로크기는 자동으로 조정.
+
 
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
 - 반응형사이트 기획서_학생용 구글xlsx 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
+
+#### 20201030 (금)
+-@미디어쿼리
+-@=애노테이션=지시어
+-웹프로그램: 기본은 게시판(아래)
+-CRUD: Create(Insert-자료입력)
+      Read(Select-자료조회)
+      Update(자료수정)
+      Delete(자료삭제)
+
 
 #### 20201022(목)
 
