@@ -432,10 +432,11 @@ footer{
 	display: inline; 
 }
 .quick_list li + li { 
-	width: 37%; }
+	width: 37%; 
+}
 .quick_list li+ li +li { 
-	width: 32%;}
-
+	width: 32%;
+}
 .quick_list li+ li a h3 {
 	background: url(../img/ico_katalk_mobtm.png) no-repeat 20px center;
 	background-size: 20px;
@@ -455,6 +456,5 @@ footer{
 	margin-top: -8px;
 	background: #76787e;
 }
-
 /* //퀵메뉴 영역 */
 
