@@ -89,6 +89,9 @@ JQuery 연습(아래)
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
 
 #### 20201030 (금)
+-background-size: cover;속성은 이미지가 영역보다 작을 때 작동
+-inherit: 상속
+-@media all-> screen, print. 같은  모든게 들어간다.
 -대괄호[배열], 중괄호{구현내용}, 소괄호(매개변수)
 -@미디어쿼리
 -@=애노테이션=지시어

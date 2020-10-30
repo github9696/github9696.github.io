@@ -17,10 +17,54 @@
 <script src="js/jquery.easing.js"></script>	
 <!-- //슬라이드용 --> 
 <style>
-/* 모바일 영역 */
+/* 태블릿 영역 */
+@media all and (min-width:801px){
+/* 컨테이너 영역 */
+#container {
+	padding-bottom: 20px;
+	width: initial;
+	position: initial;
+}
 
+/* 슬라이드 영역 */
+.main_rolling_mobile {display: none;}
+.main_rolling_pc{display: block;}
+.visulaRoll {
+	position: relative;
+	width: 100%;
+}
+.viewImgList {
+	position: relative;
+	width: 100%;
+}
+ul.viewImgList li {
+	text-align: center;
+	height: 550px;
+	line-height: 550px;
+	background-size: cover;
+	position: relative;
+	z-index: 50;
+	width: 100%;
+}
+.roll_content a img{ display: none; }
 
-/* //모바일영역 */
+li.imglist0 {
+	background: url(./img/hollow.jpg) no-repeat; }
+li.imglist1{
+	position: absolute;
+	background: url(./img/img_slidecontents01.png) no-repeat;
+	width: 100%;
+	left: 0; top: 0;
+	z-index: 10;
+	background: #4438d1
+}
+li.imglist2{
+	background: url(./img/img_slidecontents02.png) no-repeat;
+}
+
+/* //슬라이드 영역 */
+/* //테블릿 영역 */
+}
 
 </style>
 <script>
@@ -103,7 +147,7 @@
                     <li class="imglist0">
                         <div class="roll_content">
                             <a href="javascript:;">
-                            <img src="img/img_slidecontents01.png" alt="OOOO OOOOO OOOO OOOOO, 스프링... OOOO OOOOO?"></a>
+                            <img src="./img/hair.jpg" alt="OOOO OOOOO OOOO OOOOO, 스프링... OOOO OOOOO?"></a>
                             <p class="roll_txtline">OOOO OOOOOOOOO OOOOOOOOO OOOOO</p>
                         </div>
                     </li>
