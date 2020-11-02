@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* 모바일 영역 */
 @media all and (min-width:801px){
+    /* 태블릿 영역 */
     /* 상단로고, 메뉴 스타일 */
     header { height: 113px;}
     .header_area h1 {
@@ -83,19 +83,27 @@ ul.viewImgList li {
 	height: 550px;
 	line-height: 550px;
 	background-size: cover;
-	position: relative;
-	z-index: 50;
 	width: 100%;
 }
 .roll_content a img {display: none;}
 li.imglist0 {
+    position: relative;
+	z-index: 50;
 	background: url(../img/hollow.jpg) no-repeat;
 }
 li.imglist1 {
-	background: url(../img/img_slidecontents02.png) no-repeat;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+	background: url(../img/hollo1.png) no-repeat;
 }
 li.imglist2 {
-	background: url(../img/img_slidecontents03.png) no-repeat;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+	background: url(../img/hollo2.jpg) no-repeat;
 }
 .roll_content {position: relative;}
 .roll_content .roll_txtline {
@@ -130,4 +138,90 @@ li.imglist2 {
 .rollingbtn li a {vertical-align: top;}
 /* //슬라이드영역 */
 
+/* 갤러리 최근 게시물 */
+.about_area h2{
+	padding: 55px 0 105px;
+	font-size:40px;
+}
+.about_area h2 b {display:initial; padding-top:initial;}
+.place_list {
+	box-sizing:border-box;
+	padding:0 20px;
+}
+.place_list li:first-child {margin-left:0;}
+.place_list li {
+	float:left;
+	width:32%;
+	margin-left:2%;
+	position:relative;
+	top:-50px;
+	padding:initial;
+}
+.place_list li p.txt {
+	padding:10px 30px 0;
+	line-height:1.8;
+}
+.place_list li .view {
+	margin-top:20px;
+}
+
+/* //갤러리 최근 게시물 */
+
+/* 전화 상담, 최근 공지사항 */
+.appbbs_area {padding:60px 0;}
+.appbbs_box {
+	box-sizing:border-box;
+	padding:0 20px;
+}
+.app_line {
+	display:initial;
+	float:left;
+	width:66%;
+	box-sizing:border-box;
+	padding:45px 0;
+	background:url(../img/bg_app.jpg);
+	font-size:0;
+	text-align:center;
+}
+.app_line a {
+	font-size:21px;
+	display:inline-block;
+	width:42.4%;
+	height:100px;
+	line-height:100px;
+	box-sizing:border-box;
+	padding-left:55px;
+	text-align:left;
+	background:rgba(0,0,0,0.3) url(../img/ico_katalk.png) no-repeat 10px 50%;
+	border:2px solid #fff;
+	color:#fff;
+	vertical-align:middle;
+	margin-right:10px;
+}
+.app_line a + a {
+	margin-right:0;
+	padding-left:65px;
+	background:rgba(0,0,0,0.3) url(../img/ico_phone.png) no-repeat 10px 50%;
+}
+.bbs_line {
+	float:right; width:30%;
+	border-top:none;
+	padding:initial;
+}
+.bbs_line h3 {
+    font-size:26px; 
+    font-weight:initial;
+}
+
+.bbs_line .notice_recent li a {
+	display: block;
+	padding-left: 14px;
+	background: url(../img/ico_bullet.png) no-repeat 0 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+
+}
+/* //전화상담, 최근 공지사항 */
+/* //태블릿영역 */
  }
