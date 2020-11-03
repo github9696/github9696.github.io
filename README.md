@@ -125,6 +125,15 @@ JQuery 연습(아래)
 3.console.log('디버그값 출력')
 
 #### 20201102(화)
+-t시만텍 웹: 의미있는 태그 사용 html5 == 사용
+-header, footer, article, aside 웹문서에 의미있는 영역지정
+-white-space : nowrap : 예)dkfo
+-마지막 교시 입
+니다.
+만약에 wrap이면
+마지막 교시
+입니다.
+
 -css 값에 대한 수정 : padding: 40px 0 30px;이 있을 때->40px은 위, 0이 좌우, 30px 아래 
 -vertical: 수직정렬-top, middle, bottom
 -horizontal: 수평정렬-left, right, center
