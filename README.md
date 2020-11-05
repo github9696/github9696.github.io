@@ -159,6 +159,29 @@ method : 데이터 전송 방법(아래)
 -화면을 가로 12개로 분할해서 구성
 -AdminLTE 프레임웍(부트스트랩기반)
 
+
+#### 20201104(수)
+-input 입력태그: type[text|password|radio|checkbox]
+로그인 페이지, 회원가입 페이지, 마이페이지 작업예정.
+메인페이지 로고 와 슬라이드(모바일용/PC용) 이미지교체
+placeholder : -ms-input-placeholder 속성 크로스브라우징 처리OK.
+테이블 display: none -> block 크로스브라우징처리(아래)
+테이블 display: none -> table-cell 처리
+
+#### 20201105(목)
+-배열: 데이터(자료)표현방식
+-공공데이터처리 (빅데이터): Json 데이터로 자료가 전송받고, 전송한다.
+-Json(제이슨) 데이터구조(아래)
+key(키):value-> 데이터를 가공해서 화면에 뿌려주는 방식(Rest API 방식 = 파싱처리)
+{key1: value1, key2:value2, key3: value3}
+-var bigDate = [
+  {name: '하나약국', maskcnt: 200, lat(위도): lon(경도): 200}
+  {name: '둘약국', maskcnt: 100, lat(위도): lon(경도): 200}
+  {name: '셋약국', maskcnt: 0, lat(위도): lon(경도): 200}
+];
+-alert(bigData[1]['name]); ->둘약국
+=이모든걸 파싱이라 한다.
+
 #### 20201022(목)
 
 - 소스내용 교육용으로 정리
