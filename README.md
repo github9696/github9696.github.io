@@ -169,7 +169,10 @@ placeholder : -ms-input-placeholder 속성 크로스브라우징 처리OK.
 테이블 display: none -> table-cell 처리
 
 #### 20201105(목)
--배열: 데이터(자료)표현방식
+-css: 계층 구조에서 > 의미는 
+$(ul li"); ul 안쪽 모든 li태그 
+$("ul > li");-배열: 데이터(자료)표현방식
+
 -공공데이터처리 (빅데이터): Json 데이터로 자료가 전송받고, 전송한다.
 -Json(제이슨) 데이터구조(아래)
 key(키):value-> 데이터를 가공해서 화면에 뿌려주는 방식(Rest API 방식 = 파싱처리)
@@ -182,18 +185,8 @@ key(키):value-> 데이터를 가공해서 화면에 뿌려주는 방식(Rest AP
 -alert(bigData[1]['name]); ->둘약국
 =이모든걸 파싱이라 한다.
 
-#### 20201022(목)
 
-- 소스내용 교육용으로 정리
-- 깃 사용시 토큰인증헤제: [윈도우 자격증명관리]에 personal access token 을 삭제 후 커밋
-아디 비번 입력없이 자동 로그인되는거.
-- 강사블로그 http://blog.daum.net/web_design 에서 익스텐션으로 검색 vscode 사용법 참조.
-- 비주얼스튜디오코드 익스텐션 파일 구글드라이브 다운로드(아래):
-- https://drive.google.com/file/d/1NkZ0qfr2P0tDsRKyP9qHQ3tPkafeKiPv/view?usp=sharing
-
-#### 20201019(월)
-
-- 반응형사이트 화면설계서_교사용 구글ppt 다운받기(아래 구글링크):
-- https://drive.google.com/file/d/1GqBK_sKPFpfhTDd4whbLK3ZLXP1g3_Kw/view?usp=sharing
-- 반응형사이트 기획서_교사용 구글xlsx 다운받기(아래 구글링크):
-- https://drive.google.com/file/d/1Wjuov4TCQjqBtCu5EbUc3SNns8PaxHSX/view?usp=sharing
+-DOM  엘리먼트 :  <body><p><div><input>
+-동을 제어할 때 사용: j쿼리(자바스크립트 라이브러리)
+-동적으로 <label> 태그같은 dom을 추가/삭제/스타일
+-$(".div, agree");
