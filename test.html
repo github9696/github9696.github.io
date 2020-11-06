@@ -6,8 +6,11 @@
         <script>
             $(document).ready(function(){
                 $("#addElement").click(function(){
-                    $(document.body).css("background","blue");
-                    $("<div><p>제이쿼리</p></div>").appendTo("#addElement");
+                    $(document.body).css("background","green");
+                    // $("<div><p>제이쿼리</p></div>").appendTo("#addElement");
+                    // $("<div><p>제이쿼리</p></div>").after("#addElement");
+                    $(this).append("<div><p>내부추가</p></div>");
+                    $(this).after("<div><p>외부추가</p></div>");
                     var count = $("div").length;
                     alert("div 태그의 개수는" + count + "개 입니다.");
                 });
